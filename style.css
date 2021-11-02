@@ -156,3 +156,29 @@ nav #right-menu, nav#left-menu  {
     padding: 10px;
 }
 
+/*---レスポンシブ用 ---*/
+@media screen and (max-width: 480px){
+    html {
+        width: 100vw;
+    }
+    body {
+        width: 100vw;
+    }
+    header#header {
+        width: 100vw;
+    }
+    main {
+        width: 100vw;
+    }
+    div#main {
+    flex-direction: column;
+    }
+    div#phot {
+        margin-right: 0;
+        width: 100vw;
+    }
+    ul#right-menu {
+        display: none;
+    }
+
+}

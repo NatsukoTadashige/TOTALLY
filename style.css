@@ -55,12 +55,11 @@ nav #right-menu, nav#left-menu  {
 /* --- メイン --- */
 #main {
     display: flex;
-    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 #main #phot {
     width: 400px;
-    margin-right: 65px;
-    flex-shrink: 0;
 }
 #main #info h2 {
     font-size: 1rem;
@@ -163,9 +162,12 @@ nav #right-menu, nav#left-menu  {
     }
     body {
         width: 100vw;
+        
     }
     header#header {
         width: 100vw;
+        border-bottom: none;
+        padding-bottom: 0;
     }
     main {
         width: 100vw;
@@ -180,5 +182,15 @@ nav #right-menu, nav#left-menu  {
     ul#right-menu {
         display: none;
     }
+    ul#left-menu {
+        margin: 0 auto;
+    }
+    div#phot  {
+         width: 100vw;
+    }
+    .flame {
+        margin: 0px 15px;
+    }
+
 
 }
